@@ -43,7 +43,7 @@ def sottrai_giorni(update: Update, context: CallbackContext) -> None:
 def main() -> None:
     """Start the bot."""
     # Crea l'Updater e passa il tuo token del bot.
-    updater = Updater("TOKEN", use_context=True)
+    updater = Updater("6213746096:AAEMMHMCQS6S5c7XjffHkYSEUouMXesTnIw", use_context=True)
 
     # Ottieni il dispatcher per registrare i gestori
     dispatcher = updater.dispatcher
